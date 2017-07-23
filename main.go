@@ -92,5 +92,6 @@ func colorToRGB(c *color.Color) string {
 	r /= 0x101
 	g /= 0x101
 	b /= 0x101
-	return fmt.Sprintf("%s (RGB: %.0f, %.0f, %.0f)", rgbterm.FgString("█", uint8(r), uint8(g), uint8(b)), r, g, b)
+	hex := fmt.Sprintf("#%02x%02x%02x", uint8(r), uint8(g), uint8(b))
+	return fmt.Sprintf("%s (Hex: %s RGB: %.0f, %.0f, %.0f)", rgbterm.FgString("█", uint8(r), uint8(g), uint8(b)), hex, r, g, b)
 }
