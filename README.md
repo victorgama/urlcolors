@@ -18,11 +18,11 @@ Background: █ (RGB: 251, 246, 242)
 Depending on your terminal, the output may be prettier. Given the used picture
 (shown below):
 
-![](https://www.dropbox.com/s/he76t7l20214lf3/colorarty-demo.png?dl=1)
+![](https://i.imgur.com/LroDbI4.png)
 
 You'll have the following as output:
 
-![](https://www.dropbox.com/s/e9nywtdsdp331mn/urlcolors-demo.png?dl=1)
+![](https://i.imgur.com/6m6Ohmi.png)
 
 ## License
 ```
